@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view,"hahahaha" , Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity
         myList = (ListView) findViewById(R.id.list);
         KantaiAdapter adapter = new KantaiAdapter(this, rowLists);
         myList.setAdapter(adapter);
+        
         //myList.setOnItemClickListener(this);
     }
 

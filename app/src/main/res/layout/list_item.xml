@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#000000">
+    android:background="#FFFFFF">
 
     <ImageView
         android:id="@+id/kantai_image"
@@ -18,7 +18,7 @@
         android:layout_toEndOf="@+id/kantai_image"
         android:layout_toRightOf="@+id/kantai_image"
         android:padding="10dp"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="22dp"
         android:textStyle="bold" />
 
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:padding="5dp"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="18dp" />
 
 </RelativeLayout>

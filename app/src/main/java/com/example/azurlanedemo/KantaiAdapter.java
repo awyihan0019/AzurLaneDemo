@@ -2,6 +2,7 @@ package com.example.azurlanedemo;
 
 import android.app.Activity;
 import android.content.Context;
+import android.support.design.widget.Snackbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,6 +46,7 @@ public class KantaiAdapter extends BaseAdapter{
         TextView shipType;
         TextView shipCamp;
     }
+
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
