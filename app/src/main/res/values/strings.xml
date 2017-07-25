@@ -4,5 +4,46 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <!-- Kantai Name -->
+    <string-array name="Kantai_names">
+        <item>埃尔德里奇</item>
+        <item>海伦娜</item>
+        <item>威奇塔</item>
+        <item>胡德</item>
+        <item>厌战</item>
+        <item>独角兽</item>
+        <item>企业</item>
+    </string-array>
+
+    <array name="Kantai_image">
+        <item>@drawable/deliqi</item>
+        <item>@drawable/hailuna</item>
+        <item>@drawable/weiqita</item>
+        <item>@drawable/hude</item>
+        <item>@drawable/yanzhan</item>
+        <item>@drawable/unicon</item>
+        <item>@drawable/qiye</item>
+    </array>
+
+    <string-array name="shipType">
+        <item>驱逐</item>
+        <item>轻巡</item>
+        <item>重巡</item>
+        <item>战巡</item>
+        <item>战列</item>
+        <item>轻母</item>
+        <item>航母</item>
+    </string-array>
+
+    <string-array name="camp">
+        <item>重樱</item>
+        <item>白鹰</item>
+        <item>铁血</item>
+        <item>东煌</item>
+        <item>北方联合</item>
+        <item>皇家</item>
+        <item>白鹰</item>
+    </string-array>
+
     <string name="action_settings">Settings</string>
 </resources>

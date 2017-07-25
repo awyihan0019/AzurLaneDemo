@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/kantai_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/kantai_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/kantai_image"
+        android:layout_toRightOf="@+id/kantai_image"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/kantai_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kantai_name"
+        android:layout_toEndOf="@+id/kantai_image"
+        android:layout_toRightOf="@+id/kantai_image"
+        android:paddingLeft="10dp"
+        android:textColor="#808080"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/kantai_camp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+</RelativeLayout>
