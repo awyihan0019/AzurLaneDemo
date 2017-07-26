@@ -4,13 +4,13 @@ package com.example.azurlanedemo;
  * Created by yihan on 2017/7/26.
  */
 
-public class RowItem {
+public class RowItem implements java.io.Serializable{
     private String kantaiName;
     private int kantaiImageID;
     private String shipType;
     private String shipCamp;
 
-    public RowItem(String kantaiName, int kantaiImageID, String shipType, String camp)
+    public RowItem (String kantaiName, int kantaiImageID, String shipType, String camp)
     {
         this.kantaiName = kantaiName;
         this.kantaiImageID = kantaiImageID;

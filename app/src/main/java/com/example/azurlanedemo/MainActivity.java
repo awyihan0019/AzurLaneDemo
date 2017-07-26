@@ -1,5 +1,6 @@
 package com.example.azurlanedemo;
 
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -13,7 +14,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +28,7 @@ public class MainActivity extends AppCompatActivity
     String[] kantai_type;
     String[] kantai_camp;
     TypedArray kantai_image;
+    public static final String EXTRA_KANTAI = "com.example.azurlanedemo.RowItem";
 
     List<RowItem> rowLists;
     ListView myList;
@@ -70,7 +74,19 @@ public class MainActivity extends AppCompatActivity
         myList = (ListView) findViewById(R.id.list);
         KantaiAdapter adapter = new KantaiAdapter(this, rowLists);
         myList.setAdapter(adapter);
-        
+
+        myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+
+                RowItem kantai = (RowItem)adapterView.getItemAtPosition(position);
+
+                Intent intent = new Intent(MainActivity.this, DisplayKantai.class);
+                intent.putExtra(EXTRA_KANTAI, kantai);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+
         //myList.setOnItemClickListener(this);
     }
 
