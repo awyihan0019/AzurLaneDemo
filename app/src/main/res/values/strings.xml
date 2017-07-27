@@ -45,5 +45,12 @@
         <item>白鹰</item>
     </string-array>
 
+    <string-array name="navBarTitle">
+        <item>舰娘</item>
+        <item>装备</item>
+        <item>地图</item>
+        <item>其他</item>
+    </string-array>
+
     <string name="action_settings">Settings</string>
 </resources>
