@@ -10,6 +10,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.makeramen.roundedimageview.RoundedImageView;
+
 import java.util.List;
 
 /**
@@ -41,7 +43,7 @@ public class KantaiAdapter extends BaseAdapter{
     }
 
     private class ViewHolder{
-        ImageView kantai_image;
+        RoundedImageView kantai_image;
         TextView kantai_name;
         TextView shipType;
         TextView shipCamp;
@@ -61,7 +63,7 @@ public class KantaiAdapter extends BaseAdapter{
             convertView = mInflater.inflate(R.layout.list_item, null);
             holder = new ViewHolder();
 
-            holder.kantai_image = (ImageView) convertView
+            holder.kantai_image = (RoundedImageView) convertView
                     .findViewById(R.id.kantai_image);
             holder.kantai_name = (TextView) convertView
                     .findViewById(R.id.kantai_name);
