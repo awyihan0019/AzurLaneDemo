@@ -36,13 +36,13 @@
     </string-array>
 
     <string-array name="camp">
-        <item>重樱</item>
-        <item>白鹰</item>
-        <item>铁血</item>
-        <item>东煌</item>
-        <item>北方联合</item>
-        <item>皇家</item>
-        <item>白鹰</item>
+        <item>重樱</item><!--  粉红  -->
+        <item>白鹰</item><!--  浅蓝  -->
+        <item>铁血</item><!--  紫色  -->
+        <item>东煌</item><!--  红色  -->
+        <item>北联</item><!--  深蓝  -->
+        <item>皇家</item><!--  黄色  -->
+        <item>白鹰</item><!--  浅蓝  -->
     </string-array>
 
     <string-array name="navBarTitle">
@@ -52,5 +52,8 @@
         <item>其他</item>
     </string-array>
 
+    <string name="beilian">北联</string>
+
     <string name="action_settings">Settings</string>
+    <string name="title_activity_demo__slide">Demo_Slide</string>
 </resources>
