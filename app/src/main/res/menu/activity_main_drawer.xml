@@ -3,23 +3,27 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="舰娘" />
+            android:id="@+id/nav_kantai"
+            android:icon="@drawable/logo_kantai"
+            android:title="舰娘资料" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="装备" />
+            android:id="@+id/nav_time"
+            android:icon="@drawable/logo_time"
+            android:title="建造时间" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="地图" />
+            android:id="@+id/nav_equipment"
+            android:icon="@drawable/logo_equip"
+            android:title="装备查询" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:id="@+id/nav_map"
+            android:icon="@drawable/logo_map"
+            android:title="地图攻略" />
+        <item
+            android:id="@+id/nav_another"
+            android:icon="@drawable/logo_another"
             android:title="其他" />
     </group>
-
+<!--
     <item android:title="Communicate">
         <menu>
             <item
@@ -32,5 +36,6 @@
                 android:title="Send" />
         </menu>
     </item>
+    -->
 
 </menu>
